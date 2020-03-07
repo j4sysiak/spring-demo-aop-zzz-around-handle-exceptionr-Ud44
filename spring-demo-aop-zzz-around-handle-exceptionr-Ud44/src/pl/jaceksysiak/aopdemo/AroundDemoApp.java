@@ -18,7 +18,7 @@ public class AroundDemoApp {
 		
 		System.out.println("Calling getFortune");
 		
-		String data = theFortuneService.getFortune(false);
+		String data = theFortuneService.getFortune();
 		
 		System.out.println("\nMy fortune is: " + data);
 		

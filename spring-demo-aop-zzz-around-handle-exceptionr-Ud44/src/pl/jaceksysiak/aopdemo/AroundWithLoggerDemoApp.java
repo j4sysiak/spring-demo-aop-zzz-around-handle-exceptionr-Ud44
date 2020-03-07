@@ -22,7 +22,7 @@ public class AroundWithLoggerDemoApp {
 		
 		myLogger.info("Calling getFortune");
 		
-		String data = theFortuneService.getFortune(false);
+		String data = theFortuneService.getFortune();
 		
 		myLogger.info("\nMy fortune is: " + data);
 		
