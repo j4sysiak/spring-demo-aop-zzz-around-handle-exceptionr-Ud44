@@ -8,8 +8,7 @@ import pl.jaceksysiak.aopdemo.service.TrafficFortuneService;
 
 public class AroundHandleExceptionDemoApp {
 
-	private static Logger myLogger = 
-					Logger.getLogger(AroundHandleExceptionDemoApp.class.getName());
+	private static Logger myLogger = Logger.getLogger(AroundHandleExceptionDemoApp.class.getName());
 			
 	public static void main(String[] args) {
 
